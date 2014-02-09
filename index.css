@@ -1,0 +1,67 @@
+@font-face{
+    font-family:"PTSans";
+    src: url("dummyFont.ttf");
+}
+
+/*body,html{
+    height: 100%;
+}*/
+body{
+    font-family:PTSans;
+}
+
+#sider{
+    position: fixed;
+//    display: inline;
+    float: left;
+    background-image:url("background.png");
+//    overflow-x: visible;
+    width:25.5%;
+    height: 97vh;
+    
+}
+#sider > p{
+    text-align: center;
+}
+
+#sider>img{
+    width: 100%;
+}
+
+a{
+    text-decoration:none;
+}
+
+#header a{
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    font-size: 1.2em;
+}
+
+#header a:hover{
+    background-color: rgba(100,100,100,1);
+    padding-color: rgba(50,50,50,0);
+    color: white;
+}
+#content{
+//    overflow: visible;
+    text-align: justify;
+    width: 63%;
+    float: right;
+    position: relative;
+    right: 5%;
+}
+.headingp{
+    font-size: 1.4em;
+    padding-top: 0.5em;
+    border-top-style: solid;
+    border-top-width: 0.06em;
+    border-top-color: rgba(201,121,55,1);
+}
+ol{
+    padding-left: 1%;
+    margin-bottom: 1%;
+}
